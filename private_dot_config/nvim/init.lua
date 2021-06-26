@@ -9,6 +9,7 @@ require('treesitter')
 require('lsp')
 require('nvim_lint')
 require('compe_config')
+require('efm')
 
 require('keymaps')
 require('colorscheme')
