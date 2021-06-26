@@ -2,7 +2,7 @@ local map_key = vim.api.nvim_set_keymap
 
 
 -- make ';' the leader key
-vim.g.mapleader = ';'
+vim.g.mapleader = ' '
 
 -- LSP keymaps
 local opts = {noremap = true, silent = true}
