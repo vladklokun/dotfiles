@@ -1,21 +1,32 @@
 return require('packer').startup(function()
-	use 'ishan9299/nvim-solarized-lua'
-	use 'morhetz/gruvbox'
+  use 'ishan9299/nvim-solarized-lua'
+  use 'morhetz/gruvbox'
 
-	-- Debugging
-	use 'mfussenegger/nvim-dap'
-	use 'mfussenegger/nvim-dap-python'
+  -- Debugging
+  -- use 'mfussenegger/nvim-dap'
+  -- use 'mfussenegger/nvim-dap-python'
 
-	-- Treesitter
-	use {
-		'nvim-treesitter/nvim-treesitter',
-		run = ':TSUpdate'
-	}
+  -- Treesitter
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
+  }
 
-	-- LSP
-	use 'neovim/nvim-lspconfig'
-	use 'hrsh7th/nvim-compe'
+  -- LSP
+  -- use { 'neoclide/coc.nvim', branch = 'release' }
+  use 'neovim/nvim-lspconfig'
+  use 'hrsh7th/nvim-compe'
+  use 'mfussenegger/nvim-lint'
 
-	-- Color schemes
-	use 'sainnhe/sonokai'
+  -- Fuzzy search
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = {
+      {'nvim-lua/popup.nvim'},
+      {'nvim-lua/plenary.nvim'}
+    }
+  }
+
+  -- Color schemes
+  use 'sainnhe/sonokai'
 end)

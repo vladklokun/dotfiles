@@ -7,6 +7,7 @@ require('plugins')
 -- Load Language Server Protocol-related stuff
 require('treesitter')
 require('lsp')
+require('nvim_lint')
 require('compe_config')
 
 require('keymaps')
