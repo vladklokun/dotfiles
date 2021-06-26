@@ -3,8 +3,8 @@ return require('packer').startup(function()
   use 'morhetz/gruvbox'
 
   -- Debugging
-  -- use 'mfussenegger/nvim-dap'
-  -- use 'mfussenegger/nvim-dap-python'
+  use 'mfussenegger/nvim-dap'
+  use 'mfussenegger/nvim-dap-python'
 
   -- Treesitter
   use {
