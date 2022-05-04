@@ -37,3 +37,7 @@ map_key('n', '<leader>dl', '<cmd>lua require("dap").run_last()<CR>', opts)
 -- Debugging: python
 map_key('n', '<leader>dtm', '<cmd>lua require("dap-python").test_method()<CR>', opts)
 map_key('n', '<leader>dtc', '<cmd>lua require("dap-python").test_class()<CR>', opts)
+
+-- Telescope
+map_key('n', '<leader>Fg', '<cmd>Telescope live_grep<CR>', opts)
+map_key('n', '<leader>Ff', '<cmd>Telescope find_files<CR>', opts)
