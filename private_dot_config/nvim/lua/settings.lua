@@ -10,5 +10,5 @@ o.updatetime = 300
 vim.cmd("filetype plugin on")
 vim.cmd("set linebreak")
 
-vim.g.python3_host_prog = '/home/vlad/.pyenv/versions/neovim/bin/python3'
+vim.g.python3_host_prog = '~/.pyenv/versions/neovim/bin/python3'
 

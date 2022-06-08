@@ -15,8 +15,15 @@ return require('packer').startup(function()
   -- LSP
   -- use { 'neoclide/coc.nvim', branch = 'release' }
   use 'neovim/nvim-lspconfig'
-  use 'hrsh7th/nvim-compe'
+  -- use 'hrsh7th/nvim-compe'
   use 'mfussenegger/nvim-lint'
+
+  -- Autocomplete
+  use {
+    'ms-jpq/coq_nvim',
+    branch = 'coq'
+  }
+
 
   -- Fuzzy search
   use {

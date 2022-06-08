@@ -8,7 +8,7 @@ require('plugins')
 require('treesitter')
 require('lsp')
 require('nvim_lint')
-require('compe_config')
+-- require('compe_config')
 require('efm')
 require('nvim_dap_python')
 
